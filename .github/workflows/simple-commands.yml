@@ -1,12 +1,10 @@
-name: Simple commands
+name: Simple Commands
 on: [push]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Echo Hello
-        run:  echo "Hello, World!"
 
       - name: show Date
         run: Date
